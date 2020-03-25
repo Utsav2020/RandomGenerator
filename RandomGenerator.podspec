@@ -9,7 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'RandomGenerator'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of RandomGenerator.'
+  s.summary          = 'A CocoaPods library written in Swift'
+  
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,21 +22,18 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Utsav/RandomGenerator'
+  s.homepage         = 'https://github.com/Utsav2020/RandomGenerator'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Utsav' => 'utsav@Universal-Software.com' }
-  s.source           = { :git => 'https://github.com/Utsav/RandomGenerator.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Utsav2020/RandomGenerator.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '12.0'
-
-  s.source_files = 'RandomGenerator/Classes/**/*'
-  spec.ios.deployment_target = "13.3"
-   spec.swift_version = "5.0"
+   s.ios.deployment_target = '9.3'
+   s.swift_version = '5.0'
 
    
-   spec.source_files  = "Sources/**/*.{h,m,swift}"
+   s.source_files  = 'Source/**/*.swift'
   
   # s.resource_bundles = {
   #   'RandomGenerator' => ['RandomGenerator/Assets/*.png']
