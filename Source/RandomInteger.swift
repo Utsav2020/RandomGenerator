@@ -13,4 +13,9 @@ public class RandomInteger
     {
         return Int(arc4random())
     }
+    public static func RadString() -> String
+       {
+        return UIDevice.current.identifierForVendor!.uuidString
+       }
+    
 }

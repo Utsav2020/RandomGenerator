@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
          let randomInteger = RandomInteger.RadInteger()
               print(randomInteger)
+        let randomStr = RandomInteger.RadString()
+                     print(randomStr)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
