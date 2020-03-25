@@ -28,9 +28,14 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Utsav/RandomGenerator.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '12.0'
 
   s.source_files = 'RandomGenerator/Classes/**/*'
+  spec.ios.deployment_target = "13.3"
+   spec.swift_version = "5.0"
+
+   
+   spec.source_files  = "Sources/**/*.{h,m,swift}"
   
   # s.resource_bundles = {
   #   'RandomGenerator' => ['RandomGenerator/Assets/*.png']

@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		37DD01DDF87CCF3BB92C020A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		37DD01DDF87CCF3BB92C020A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* RandomGenerator_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomGenerator_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -43,10 +43,10 @@
 		BBC11420630BA0078ABFC33A /* Pods-RandomGenerator_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomGenerator_Example.release.xcconfig"; path = "Target Support Files/Pods-RandomGenerator_Example/Pods-RandomGenerator_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C0C4B8E9641FEB164198B0CB /* Pods_RandomGenerator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RandomGenerator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D16108E24CB9A9B8B1901A2D /* Pods-RandomGenerator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomGenerator_Tests.debug.xcconfig"; path = "Target Support Files/Pods-RandomGenerator_Tests/Pods-RandomGenerator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DFC1FB433237695A6376DE39 /* RandomGenerator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RandomGenerator.podspec; path = ../RandomGenerator.podspec; sourceTree = "<group>"; };
+		DFC1FB433237695A6376DE39 /* RandomGenerator.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RandomGenerator.podspec; path = ../RandomGenerator.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F7B1C8096E7E77C26147A1E0 /* Pods_RandomGenerator_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RandomGenerator_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7D505B90F68897F9404829A /* Pods-RandomGenerator_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RandomGenerator_Example.debug.xcconfig"; path = "Target Support Files/Pods-RandomGenerator_Example/Pods-RandomGenerator_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		FB1713E58BA3C6192EF3267D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		FB1713E58BA3C6192EF3267D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,6 @@
 				D16108E24CB9A9B8B1901A2D /* Pods-RandomGenerator_Tests.debug.xcconfig */,
 				A8DA9A0ABE88498AFE092C14 /* Pods-RandomGenerator_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -424,6 +424,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -469,6 +470,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

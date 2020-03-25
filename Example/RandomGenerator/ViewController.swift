@@ -7,11 +7,14 @@
 //
 
 import UIKit
+import RandomGenerator
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+         let randomInteger = RandomInteger.RadInteger()
+              print(randomInteger)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
