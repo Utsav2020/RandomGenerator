@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 public class RandomInteger
 {
     public static func RadInteger() -> Int
@@ -15,7 +16,7 @@ public class RandomInteger
     }
     public static func RadString() -> String
        {
-        return UIDevice.current.identifierForVendor!.uuidString
+        return "Test"
        }
     
 }
