@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'RandomGenerator1'
+  s.name             = 'RandomGenerator'
   s.version          = '0.1.2'
   s.summary          = 'A CocoaPods library written in Swift'
   
